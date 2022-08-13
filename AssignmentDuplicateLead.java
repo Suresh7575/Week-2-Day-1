@@ -38,7 +38,7 @@ public class AssignmentDuplicateLead {
 	            driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Nareshkumar");
 	   		 driver.findElement(By.className("smallSubmit")).click();
 	            String title2=driver.getTitle();
-	            System.out.println(title);	            
+	            System.out.println(title2);	            
 
 	}
 
